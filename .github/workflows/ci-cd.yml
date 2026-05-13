@@ -17,4 +17,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-devops-app:latest 
+          tags: cloud6devops/flask-devops-app:latest   
+          
